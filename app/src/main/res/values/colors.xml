@@ -5,6 +5,17 @@
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
+
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="otkrytie_accent">#3AB6EC</color>
+    <color name="otkrytie_background_main">#F0F4F7</color>
+    <color name="otkrytie_background_second">#FFFFFFFF</color>
+
+    <color name="otkrytie_accent_backgroun_main">#F1FAFE</color>
+    <color name="otkrytie_accent_backgroun_second">#D8F0FE</color>
+
+    <color name="otkrytie_other">#5D3FAF</color>
+
 </resources>
