@@ -6,7 +6,6 @@ class OtkrytieRepository {
 
     private val otkrytieApi = Networking.otkrytieApi
 
-    suspend fun authRequest(body: AuthBody) {
-        otkrytieApi.auth(body)
-    }
+    suspend fun authRequest(body: AuthBody) = otkrytieApi.auth(body)
+
 }

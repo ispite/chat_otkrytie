@@ -64,4 +64,13 @@ dependencies {
     implementation "com.squareup.moshi:moshi:$moshiVersion"
     implementation "com.squareup.moshi:moshi-kotlin:$moshiVersion"
     kapt "com.squareup.moshi:moshi-kotlin-codegen:$moshiVersion"
+
+    // Logging
+    implementation 'com.jakewharton.timber:timber:5.0.1'
+
+    // Coroutines
+    def coroutinesVersion = '1.6.4'
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutinesVersion"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutinesVersion"
+
 }
