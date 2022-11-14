@@ -10,7 +10,7 @@ import ru.skillbox.chat_otkrytie.utils.haveP
 
 object Networking {
 
-    private val baseUrlProtocol: String = if (haveP()) "https" else "http"
+//    private val baseUrlProtocol: String = if (haveP()) "https" else "http"
 
     private val okHttpClient = OkHttpClient.Builder()
 //        .addNetworkInterceptor(ApiKeyAdderInterceptor(API_KEY))
@@ -18,7 +18,7 @@ object Networking {
         .build()
 
     private val retrofit = Retrofit.Builder()
-        .baseUrl("$baseUrlProtocol://hack.invest-open.ru/")
+        .baseUrl("https://hack.invest-open.ru/")
         .addConverterFactory(MoshiConverterFactory.create())
         .client(okHttpClient)
         .build()
